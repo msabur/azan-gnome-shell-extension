@@ -1,5 +1,6 @@
 .azan-panel {
   font-family: Lotus, Arial, sans-serif;
+  color: white;
   font-size: 14px;
   font-weight: bold;
 	direction: rtl;
@@ -9,3 +10,8 @@
 	color: white;
 	border: none;
 }
+
+.white {
+  color: white;
+}
+

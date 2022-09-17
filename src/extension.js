@@ -91,7 +91,7 @@ class Azan extends PanelMenu.Button {
         let prayerName = this._timeNames[prayerId];
 
         let prayMenuItem = new PopupMenu.PopupMenuItem(_(prayerName), {
-            reactive: false, hover: false, activate: false
+            style_class: 'white', reactive: false, hover: false, activate: false
         });
 
         let bin = new St.Bin({x_expand: true,x_align: Clutter.ActorAlign.END});
@@ -431,3 +431,4 @@ function disable() {
 	azan.stop();
   azan.destroy();
 }
+
