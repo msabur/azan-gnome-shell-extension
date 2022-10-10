@@ -67,7 +67,7 @@ class Azan extends PanelMenu.Button {
 
     this._timeConciseLevels = {
       fajr: 1,
-      sunrise: 0,
+      sunrise: 1,
       dhuhr: 1,
       asr: 1,
       sunset: 0,
